@@ -1,1 +1,2 @@
 # Automate-Resume-Template-ChatGPT
+ Python script has been developed to automate the job posting process using ChatGPT and a Word template. The script takes the job description as input, processes it with ChatGPT to generate strong bullet points, and automates the creation of a resume using the Word template
