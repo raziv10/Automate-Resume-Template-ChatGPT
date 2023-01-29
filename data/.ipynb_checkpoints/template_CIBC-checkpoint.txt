@@ -1,12 +1,16 @@
-Name: CIBC
-Location: Toronto-81 Bay, 33rd Floor
-Position: Data Scientist Co-op
-Company Description: 
-"We’re building a relationship-oriented bank for the modern world. We need talented, passionate professionals who are dedicated to doing what’s right for our clients.
+Name:CIBC |
 
-At CIBC, we embrace your strengths and your ambitions, so you are empowered at work. Our team members have what they need to make a meaningful impact and are truly valued for who they are and what they contribute."
+Location: Toronto, ON |
 
-Job Description: As a Data Scientist you will apply your knowledge and experience of data modelling to solve challenging business problems and bringing innovative solutions. You’ll interact with groups across the organization from client facing to operational, risk and capital markets. You’ll work with real world structured and unstructured datasets to produce end-to-end solutions, taking models from experiment to deployment. We collaborate with the most exciting new companies in the space of AI and machine learning, and engage in teamwork with leading academic researchers to promote the exchange of ideas and enrich our talent.
+Position:Data Scientist Co-op |
+            
+Company Description:We’re building a relationship-oriented bank for the modern world. We need talented, passionate professionals who are dedicated to doing what’s right for our clients.
+
+At CIBC, we embrace your strengths and your ambitions, so you are empowered at work. Our team members have what they need to make a meaningful impact and are truly valued for who they are and what they contribute.  |
+
+Job Description:What you’ll be doing
+
+As a Data Scientist you will apply your knowledge and experience of data modelling to solve challenging business problems and bringing innovative solutions. You’ll interact with groups across the organization from client facing to operational, risk and capital markets. You’ll work with real world structured and unstructured datasets to produce end-to-end solutions, taking models from experiment to deployment. We collaborate with the most exciting new companies in the space of AI and machine learning, and engage in teamwork with leading academic researchers to promote the exchange of ideas and enrich our talent.
 
 How you’ll succeed
 
@@ -24,6 +28,6 @@ Process Improvement: You enjoy the process of reviewing current processes and id
 Creativity: You are curious and enjoy working in a team to visualize and design innovative solutions
 Inspired: Your passionate about growing your knowledge and you know there is no limit to what you can achieve
 Teamwork: You care about people and understand different perspectives. You work well with others and learn from the experiences of others.
-Values matter to you. You bring your real self to work and you live our values – trust, teamwork and accountability
-
-Qualification:Analytics Software, Communication, Data Analysis, Data Science, Deep Learning, Development Planning, End-to-End Testing, Exploration, Innovation, Machine Learning, Personal Development, Problem Solving, Researching, Statistics, Teamwork, Written Communication
+Values matter to you. You bring your real self to work and you live our values – trust, teamwork and accountability |
+            
+Qualification:Analytics Software, Communication, Data Analysis, Data Science, Deep Learning, Development Planning, End-to-End Testing, Exploration, Innovation, Machine Learning, Personal Development, Problem Solving, Researching, Statistics, Teamwork, Written Communication |
