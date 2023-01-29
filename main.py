@@ -1,6 +1,7 @@
+import os
 from pyChatGPT import ChatGPT
 from mailmerge import MailMerge
-import os
+from docx2pdf import convert
 from datetime import datetime
 
 COVER_LETTER='data/cover_letter_template.docx'
@@ -34,6 +35,19 @@ def reuse_template(template):
     return record
 
 def parse_record(record,index) : return record[index].split(':')[1].replace('\n',' ').rstrip().lstrip()
+def convert_to_pdf(folder,file):convert(folder+'/'+file,folder+'/'+file.split('.')[0]+'.pdf')
+
+def file_name(record,type):
+    ## r -> resume, c -> cover letter
+    name='Rajiv-Luitel'
+    position=record.get('company')[0]['position'].replace(' ','-')
+    company=record.get('company')[0]['name'].replace(' ','-')
+    if type=='r':
+        return name+'-'+position+'-'+company+'-'+'Resume.docx'
+    else:
+        return name+'-'+position+'-'+company+'-'+'Cover-Letter.docx'
+
+
 
 
 def gpt_cover_letter(message):
@@ -76,9 +90,12 @@ def generate_cover_letter(container,template):
                    COMPANY_LOCATION=str(container.get('company')[0]['location']),
                    POSITION=container.get('company')[0]['position'],
                    MESSAGE=gpt_cover_letter(message))
-
-    document.write('result1.docx')
-
+    folder='output/'+container.get('company')[0]['name']
+    file=file_name(container,'c')
+    os.makedirs(folder)
+    document.write(folder+'/'+file)
+    convert_to_pdf(folder,file)
+    
 def generate_resume(template):
     pass
 
@@ -86,7 +103,6 @@ def generate_resume(template):
 response=job_description()
 print(response.get('company')[0]['position'])
 generate_cover_letter(response,COVER_LETTER)
-
 
 
 
